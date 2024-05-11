@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <h1>Pruebas con "plugins" en nuestro proyecto</h1>
+
+            </div>
+
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img class="img-fluid rounded" src="assets/img/prix-deportes1-730x730.jpg" alt="">
+            </div>
+            <div class="col-lg-6" data-aos="zoom-in">
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contrasenia">Contraseña</label>
+                    <input type="password" name="contrasenia" id="contrasenia" class="form-control">
+                </div>
+                <button type="submit" class="btn-">Validar</button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2000">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eos recusandae repellendus natus illum
+                    eligendi tempora. Consectetur rerum sunt officiis rem repellat praesentium, unde, fugit doloribus
+                    perspiciatis, placeat nisi quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa doloremque provident earum voluptas
+                    temporibus enim consectetur ullam fugiat, unde debitis neque animi fuga recusandae at corrupti
+                    perspiciatis culpa dicta ipsum?</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets/img/EscuelaIR3-730x730.jpg" alt="" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <div id="summernote">Hello summernote</div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <table class="table" id="tablita">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
